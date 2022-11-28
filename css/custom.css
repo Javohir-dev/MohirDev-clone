@@ -1,0 +1,34 @@
+.bg-img {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/register-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-image {
+  background-image: url(../img/register-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.header_img {
+  width: 30rem;
+}
+
+.header_row {
+  padding-top: 7rem;
+}
+
+.mohir-image {
+  width: 5rem;
+  transition: all .7s ease;
+}
+
+.card-body {
+  overflow: hidden;
+}
+
+.card-body:hover .mohir-image {
+  transform: scale(2.5);
+}
